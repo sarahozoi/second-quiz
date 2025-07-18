@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BrainBuzz Quiz Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="heading">Brainbuzz</div>
+  <!-- Cover Page -->
+  <div id="cover-page">
+    <h1>Welcome to the Quiz!</h1>
+    <button id="start-btn">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Section -->
+  <div id="quiz-container" class="hidden">
+    <div id="question-container">
+      <h2 id="question-text">Question Text</h2>
+      <div id="answer-buttons"></div>
+    </div>
+    <button id="next-btn" class="hidden">Next</button>
+  </div>
+
+  <!-- Result Section -->
+  <div id="result-container" class="hidden">
+    <h2>Quiz Complete!</h2>
+    <p id="score-text"></p>
+    <button id="try-again-btn">Try Again</button>
+    <button id="home-btn">Go to Cover Page</button>
+  </div>
+<script src="index.js"></script>
+</body>
+</html>
